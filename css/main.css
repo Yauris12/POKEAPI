@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: 'Comfortaa';
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.logo {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+}
+.card-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 29rem;
+  width: 23em;
+  gap: 2rem;
+  background-image: radial-gradient(
+    circle at 22.99% 22.99%,
+    #f9e98b 0,
+    #c9c279 50%,
+    #9d9c67 100%
+  );
+  /* background-color: powderblue; */
+  border-radius: 20px;
+}
+
+.container-img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 60px;
+
+  background-color: white;
+}
+
+.container-img img {
+  width: 12.5rem;
+  height: 12.5rem;
+  position: relative;
+  top: 1.2rem;
+}
+.codigoPoke {
+  background-color: silver;
+  padding: 0.5rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+}
+.nombre_Pokemon {
+  font-size: 3rem;
+}
+.flex-tipo {
+  display: flex;
+  gap: 3rem;
+}
+.filtroPokemon {
+  text-align: center;
+  margin: 2rem 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.filtroPokemon button {
+  padding: 0.5rem;
+}
+
+p {
+}
